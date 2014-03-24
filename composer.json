@@ -1,6 +1,6 @@
 {
-    "name": "openid/php-openid",
-    "version": "2.2.2",
+    "name": "relaxnow/php-openid",
+    "version": "2.2.3",
     "description": "OpenID library for PHP5",
     "keywords": ["openid", "authentication", "yadis", "auth"],
     "license": "Apache-2.0",
@@ -20,5 +20,6 @@
     "autoload": {
         "classmap": ["Auth"]
     },
+    "replace": { "openid/php-openid": "*" },
     "include-path": ["."]
 }
